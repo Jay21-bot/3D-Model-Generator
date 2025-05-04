@@ -64,3 +64,67 @@ This is a simple prototype that demonstrates the basic pipeline for **input proc
 git clone <your_repo_link>
 cd 3d_model_generator_project
 
+
+###Step 2: Create a Virtual Environment
+Create a Python virtual environment to isolate project dependencies:
+python -m venv venv
+
+Activate the virtual environment:
+
+Windows:
+venv\Scripts\activate
+
+Linux/macOS:
+source venv/bin/activate
+
+
+
+###Step 3: Install Dependencies
+Use pip to install the required dependencies from requirements.txt:
+
+pip install -r requirements.txt
+
+
+
+
+###Step 4: Prepare Your Inputs
+Place your input images (such as toy_car.png) into the inputs/ folder. If you’re using a text prompt, you can directly pass it as input.
+
+
+
+
+###Step 5: Run the Prototype
+To run the application, use the following command:
+
+python main.py
+
+
+
+
+
+###Step 6: View the Results
+The generated 3D model will be saved in the outputs/ folder as a .stl file.
+
+The model will be displayed in a 3D visualization window using matplotlib.
+
+
+
+
+
+---
+
+### Key Sections in the `README.md`:
+
+1. **Overview**: Provides a high-level description of what the project does.
+2. **Input Options**: Explains how users can input a text description or image to generate 3D models.
+3. **How It Works**: Explains the flow of generating models based on input.
+4. **Project Structure**: Outlines the project files and their functions.
+5. **Installation & Setup**: Step-by-step instructions to clone, install dependencies, and run the project.
+6. **Dependencies**: Lists the required libraries for the project.
+7. **Future Improvements**: Ideas on how to enhance the project later.
+8. **Outputs**: Describes where the generated 3D models are stored and how they can be visualized.
+9. **License**: A standard MIT license disclaimer (you can replace it if you use another license).
+
+---
+
+Now you're ready to add it to your GitHub repository! Just copy and paste it into the `README.md` file of your repo. Let me know if you need anything else!
