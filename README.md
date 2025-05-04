@@ -21,3 +21,46 @@ This is a simple prototype that demonstrates the basic pipeline for **input proc
 
 ## 📦 Project Structure
 
+
+
+
+
+
+
+
+3d_model_generator_project/
+│
+├── inputs/ ← Folder for input images
+├── outputs/ ← Folder for .stl/.obj files
+│
+├── main.py ← Main application to run the prototype
+├── model_generator.py ← Logic for generating 3D models
+├── visualizer.py ← Visualizer for 3D models
+│
+├── requirements.txt ← Python dependencies
+└── README.md ← Project overview and documentation
+
+
+
+
+
+
+
+
+
+
+
+
+## 🔧 Installation & Setup
+
+### Prerequisites
+
+- Python 3.x
+- pip
+
+### Step 1: Clone the repository
+
+```bash
+git clone <your_repo_link>
+cd 3d_model_generator_project
+
