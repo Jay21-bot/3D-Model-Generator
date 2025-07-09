@@ -60,7 +60,7 @@ This is a simple prototype that demonstrates the basic pipeline for **input proc
 
 ### Step 1: Clone the repository
 
-```bash
+
 git clone <your_repo_link>
 cd 3d_model_generator_project
 
