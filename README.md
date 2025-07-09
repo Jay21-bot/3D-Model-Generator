@@ -65,7 +65,7 @@ git clone <your_repo_link>
 cd 3d_model_generator_project
 
 
-###Step 2: Create a Virtual Environment
+### Step 2: Create a Virtual Environment
 Create a Python virtual environment to isolate project dependencies:
 python -m venv venv
 
@@ -79,7 +79,7 @@ source venv/bin/activate
 
 
 
-###Step 3: Install Dependencies
+### Step 3: Install Dependencies
 Use pip to install the required dependencies from requirements.txt:
 
 pip install -r requirements.txt
@@ -87,13 +87,13 @@ pip install -r requirements.txt
 
 
 
-###Step 4: Prepare Your Inputs
+### Step 4: Prepare Your Inputs
 Place your input images (such as toy_car.png) into the inputs/ folder. If you’re using a text prompt, you can directly pass it as input.
 
 
 
 
-###Step 5: Run the Prototype
+### Step 5: Run the Prototype
 To run the application, use the following command:
 
 python main.py
@@ -102,7 +102,7 @@ python main.py
 
 
 
-###Step 6: View the Results
+### Step 6: View the Results
 The generated 3D model will be saved in the outputs/ folder as a .stl file.
 
 The model will be displayed in a 3D visualization window using matplotlib.
